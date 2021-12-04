@@ -1,0 +1,7 @@
+@mixin headButton ($colorValue, $fontSize) {
+    color: $colorValue;
+    font-size: $fontSize;
+    font-family: $abrilFont;
+}
+
+

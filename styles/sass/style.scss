@@ -1,7 +1,20 @@
-$breakpoints: (
-    xl: 1200px,
-    lg: 960px,
-    med: 760px,
-    sm: 480px
-);
+// IMPORTS 
+@import "variables";
+@import "setup";
+@import "section";
+@import "header";
+@import "mixins";
+
+// VARIABLES
+
+    // COLORS
+$accent: #e4a436;
+$greengrey: #709b6b;
+$pine: #345231;
+$black: #1f1f1f;
+$white: #f6f6f6;
+
+    // FONTS
+$abrilFont: 'Abril Fatface', cursive;
+$montFont: 'Montserrat', sans-serif;
 
