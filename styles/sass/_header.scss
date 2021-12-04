@@ -1,33 +1,65 @@
 // GENERAL HEADER
 header {
     font-family: $abrilFont;
-    background-color: $pine;
+    color: $white;
+    background-size: cover;
     height: 50vh;
     text-transform: uppercase;
     ul {
-        color: $white;
+        background: $pine;
         display: flex;
         justify-content: center;
+        align-items: center;
         margin: 0;
-        padding-top: 1rem;
+        padding: 1rem 0;
     }
-        .listBlog,
-        .listContact,
-        .listHome {
-            font-size: 2rem;
-            padding: 0 1rem;
-        }
             a {
                 font-family: $montFont;
-                font-size: 0.5rem;
-                font-weight: 400;
+                font-size: 20px;
+                font-weight: bold;
                 color: $white;
-                padding: 0 1rem;
-            
+                padding: 0 1rem;       
             }
-
+            .anchorBlog,
+            .anchorContact,
+            .anchorHome {
+                font-family: $abrilFont;
+                font-size: 32px;
+            }   
     h1 {
-        
+        font-size: 80px;
+        padding-top: 11.6rem;
     }
-
 }
+// HEADER FOR BLOG
+.headerBlog {
+    background-image: url(./assets/blog-image-1.jpg);
+}
+// HEADER FOR CONTACT
+.headerContact {
+    background-image: url(./assets/contact-image-1.jpg);
+}
+// HEADER FOR HOME
+.headerHome {
+    background: $pine;
+    height: 70vh;
+    .headerDiv {
+        display: flex;
+        position: relative;
+        .dailyMus {
+            padding-top: 8.3rem;
+            img {
+                width: 4.2rem;
+                height: 4.7rem;
+            }
+            
+        }
+        h1 {
+            font-size: 5rem;
+            position: absolute;
+            padding-top: 5rem;
+            left: 2.5rem;
+        }
+    }
+}
+

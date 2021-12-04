@@ -1,33 +1,74 @@
 header {
   font-family: "Abril Fatface", cursive;
-  background-color: #345231;
+  color: #f6f6f6;
+  background-size: cover;
   height: 50vh;
   text-transform: uppercase;
 }
 header ul {
-  color: #f6f6f6;
+  background: #345231;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 0;
-  padding-top: 1rem;
-}
-header .listBlog,
-header .listContact,
-header .listHome {
-  font-size: 2rem;
-  padding: 0 1rem;
+  padding: 1rem 0;
 }
 header a {
   font-family: "Montserrat", sans-serif;
-  font-size: 0.5rem;
-  font-weight: 400;
+  font-size: 20px;
+  font-weight: bold;
   color: #f6f6f6;
   padding: 0 1rem;
 }
+header .anchorBlog,
+header .anchorContact,
+header .anchorHome {
+  font-family: "Abril Fatface", cursive;
+  font-size: 32px;
+}
+header h1 {
+  font-size: 80px;
+  padding-top: 11.6rem;
+}
+
+.headerBlog {
+  background-image: url(./assets/blog-image-1.jpg);
+}
+
+.headerContact {
+  background-image: url(./assets/contact-image-1.jpg);
+}
+
+.headerHome {
+  background: #345231;
+  height: 70vh;
+}
+.headerHome .headerDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+.headerHome .headerDiv .dailyMus {
+  padding-top: 8.3rem;
+}
+.headerHome .headerDiv .dailyMus img {
+  width: 4.2rem;
+  height: 4.7rem;
+}
+.headerHome .headerDiv h1 {
+  font-size: 5rem;
+  position: absolute;
+  padding-top: 5rem;
+  left: 2.5rem;
+}
+
 li {
   list-style: none;
 }
