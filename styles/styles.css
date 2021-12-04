@@ -1,3 +1,40 @@
+header {
+  font-family: "Abril Fatface", cursive;
+  background-color: #345231;
+  height: 50vh;
+  text-transform: uppercase;
+}
+header ul {
+  color: #f6f6f6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  padding-top: 1rem;
+}
+header .listBlog,
+header .listContact,
+header .listHome {
+  font-size: 2rem;
+  padding: 0 1rem;
+}
+header a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.5rem;
+  font-weight: 400;
+  color: #f6f6f6;
+  padding: 0 1rem;
+}
+li {
+  list-style: none;
+}
+li a {
+  text-decoration: none;
+}
+
 html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
@@ -233,4 +270,14 @@ html {
           clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+html {
+  font-size: 125%;
+}
+
+.wrapper {
+  max-width: 1200px;
+  width: 85%;
+  margin: 0 auto;
 }

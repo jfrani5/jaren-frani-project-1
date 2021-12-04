@@ -1,0 +1,33 @@
+// GENERAL HEADER
+header {
+    font-family: $abrilFont;
+    background-color: $pine;
+    height: 50vh;
+    text-transform: uppercase;
+    ul {
+        color: $white;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding-top: 1rem;
+    }
+        .listBlog,
+        .listContact,
+        .listHome {
+            font-size: 2rem;
+            padding: 0 1rem;
+        }
+            a {
+                font-family: $montFont;
+                font-size: 0.5rem;
+                font-weight: 400;
+                color: $white;
+                padding: 0 1rem;
+            
+            }
+
+    h1 {
+        
+    }
+
+}

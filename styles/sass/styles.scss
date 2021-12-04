@@ -1,0 +1,41 @@
+// VARIABLES
+
+    // COLORS
+$accent: #e4a436;
+$greengrey: #709b6b;
+$pine: #345231;
+$black: #1f1f1f;
+$white: #f6f6f6;
+
+    // FONTS
+$abrilFont: 'Abril Fatface', cursive;
+$montFont: 'Montserrat', sans-serif;
+
+
+
+// IMPORTS 
+@import "articleAside";
+@import "header";
+@import "misc";
+@import "mixins";
+@import "sectionHome";
+@import "setup";
+
+
+
+
+
+
+
+
+
+// REMS AND WRAPPER
+html {
+    font-size: 125%;
+}
+
+.wrapper {
+    max-width: 1200px;
+    width: 85%;
+    margin: 0 auto;
+}
