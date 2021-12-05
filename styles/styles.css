@@ -50,7 +50,7 @@ header h1 {
 
 .headerHome {
   background: #345231;
-  height: 75vh;
+  height: 65vh;
 }
 .headerHome .anchorHome {
   color: #e4a436;
@@ -97,53 +97,52 @@ header h1 {
   background: #f6f6f6;
   padding: 5rem 0;
 }
-.about .favBuck .container {
+.about .favBuck .favBuckContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-.about .favBuck .container .imageBox1,
-.about .favBuck .container .imageBox2 {
+.about .favBuck .favBuckContainer .imageBox1,
+.about .favBuck .favBuckContainer .imageBox2 {
   width: 48%;
   position: relative;
 }
-.about .favBuck .container .imageBox1 .bridge,
-.about .favBuck .container .imageBox1 .lotus,
-.about .favBuck .container .imageBox2 .bridge,
-.about .favBuck .container .imageBox2 .lotus {
+.about .favBuck .favBuckContainer .imageBox1 .bridge,
+.about .favBuck .favBuckContainer .imageBox1 .lotus,
+.about .favBuck .favBuckContainer .imageBox2 .bridge,
+.about .favBuck .favBuckContainer .imageBox2 .lotus {
   width: 100%;
-  position: absolute;
+  position: inherit;
   z-index: 1;
 }
-.about .favBuck .container .imageBox1 .bridge,
-.about .favBuck .container .imageBox2 .bridge {
+.about .favBuck .favBuckContainer .imageBox1 .bridge,
+.about .favBuck .favBuckContainer .imageBox2 .bridge {
   top: -40px;
 }
-.about .favBuck .container .imageBox1 .lotus,
-.about .favBuck .container .imageBox2 .lotus {
+.about .favBuck .favBuckContainer .imageBox1 .lotus,
+.about .favBuck .favBuckContainer .imageBox2 .lotus {
   bottom: -20px;
 }
-.about .favBuck .container .imageBox1 .pine1,
-.about .favBuck .container .imageBox1 .pine2,
-.about .favBuck .container .imageBox2 .pine1,
-.about .favBuck .container .imageBox2 .pine2 {
-  height: 15rem;
+.about .favBuck .favBuckContainer .imageBox1 .pine1,
+.about .favBuck .favBuckContainer .imageBox1 .pine2,
+.about .favBuck .favBuckContainer .imageBox2 .pine1,
+.about .favBuck .favBuckContainer .imageBox2 .pine2 {
+  width: 124%;
+  height: 98%;
   background: #345231;
   position: absolute;
 }
-.about .favBuck .container .imageBox1 .pine1,
-.about .favBuck .container .imageBox2 .pine1 {
-  width: 29.2rem;
-  left: -89px;
+.about .favBuck .favBuckContainer .imageBox1 .pine1,
+.about .favBuck .favBuckContainer .imageBox2 .pine1 {
+  right: -18px;
   top: -22px;
 }
-.about .favBuck .container .imageBox1 .pine2,
-.about .favBuck .container .imageBox2 .pine2 {
-  width: 30rem;
+.about .favBuck .favBuckContainer .imageBox1 .pine2,
+.about .favBuck .favBuckContainer .imageBox2 .pine2 {
   left: 15px;
-  bottom: -33px;
+  bottom: -25px;
 }
 .about .favBuck .favourite,
 .about .favBuck .bucket {
@@ -159,6 +158,35 @@ header h1 {
 
 .blog .blogFirst {
   background: #f6f6f6;
+}
+.blog .blogFirst .blogFirstContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 4rem 0;
+}
+.blog .blogFirst .blogFirstContainer .yellowAndPine {
+  width: 22%;
+  position: relative;
+}
+.blog .blogFirst .blogFirstContainer .yellowAndPine .imgForWillow,
+.blog .blogFirst .blogFirstContainer .yellowAndPine .boxForWillow {
+  width: 100%;
+}
+.blog .blogFirst .blogFirstContainer .yellowAndPine .imgForWillow {
+  position: inherit;
+  z-index: 1;
+}
+.blog .blogFirst .blogFirstContainer .yellowAndPine .boxForWillow {
+  background: #345231;
+  height: 100%;
+  position: absolute;
+  bottom: -10px;
+  left: 15px;
+}
+.blog .blogFirst .blogFirstContainer .journey {
+  width: 77%;
+  padding-left: 5rem;
 }
 
 html {

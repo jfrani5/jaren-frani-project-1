@@ -9,7 +9,7 @@
     .favBuck {
         // display: flex;
         // flex-wrap: wrap;
-        .container {
+        .favBuckContainer {
             display: flex;
             flex-wrap: wrap;
             .imageBox1,
@@ -19,7 +19,7 @@
                 .bridge,
                 .lotus {
                     width: 100%;
-                    position: absolute;
+                    position: inherit;
                     z-index: 1;
                 }
                 .bridge {
@@ -30,20 +30,18 @@
                 }
                 .pine1,
                 .pine2 {
-                    height: 15rem;
+                    width: 124%;
+                    height: 98%;
                     background: $pine;
-                    position: absolute;
-                    
+                    position: absolute; 
                 }
                 .pine1 {
-                    width: 29.2rem;
-                    left: -89px;
+                    right: -18px;
                     top: -22px;
                 }
                 .pine2 {
-                    width: 30rem;
                     left: 15px;
-                    bottom: -33px;
+                    bottom: -25px;
                 }
             }
         }
@@ -58,7 +56,6 @@
                 padding: 1.5rem 4rem 2.5rem 0;
                 text-align: right;
             }
-        
     }
 }
 
@@ -69,5 +66,32 @@
     // delete if empty
     .blogFirst {
         background: $white;
+        .blogFirstContainer {
+            display: flex;
+            padding: 4rem 0;
+            .yellowAndPine {
+                width: 22%;
+                position: relative;
+                .imgForWillow,
+                .boxForWillow {
+                    width: 100%;
+                }
+                .imgForWillow {
+                    position: inherit;
+                    z-index: 1;
+                }
+                .boxForWillow {
+                    background: $pine;
+                    height: 100%;
+                    position: absolute;
+                    bottom: -10px;
+                    left: 15px;
+                }
+            }
+            .journey {
+                width: 77%;
+                padding-left: 5rem;
+            }
+        }
     }
 }
