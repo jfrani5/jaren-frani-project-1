@@ -85,7 +85,7 @@ header h1 {
 }
 .headerHome .headerDiv .headerImage .boxHeader {
   width: 19.5rem;
-  height: 26.5rem;
+  height: 27.3rem;
   background: white;
   position: absolute;
   top: 15px;
@@ -96,6 +96,44 @@ header h1 {
   text-align: center;
   background: #f6f6f6;
   padding: 5rem 0;
+}
+.about .favBuck .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.about .favBuck .container .imageBox1,
+.about .favBuck .container .imageBox2 {
+  width: 50%;
+  position: relative;
+}
+.about .favBuck .container .imageBox1 .bridge,
+.about .favBuck .container .imageBox1 .lotus,
+.about .favBuck .container .imageBox2 .bridge,
+.about .favBuck .container .imageBox2 .lotus {
+  width: 90%;
+  position: absolute;
+  z-index: 1;
+}
+.about .favBuck .container .imageBox1 .bridge,
+.about .favBuck .container .imageBox2 .bridge {
+  top: -29px;
+}
+.about .favBuck .container .imageBox1 .pine1,
+.about .favBuck .container .imageBox2 .pine1 {
+  width: 27.7rem;
+  height: 14rem;
+  background: #345231;
+  position: absolute;
+  left: -89px;
+  top: -15px;
+}
+.about .favBuck .favourite,
+.about .favBuck .bucket {
+  width: 50%;
+  margin: 2.5rem 0;
 }
 
 html {
