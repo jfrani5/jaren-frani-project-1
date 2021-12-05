@@ -1,6 +1,5 @@
 // GENERAL HEADER
 header {
-    font-family: $abrilFont;
     color: $white;
     background-size: cover;
     height: 50vh;
@@ -27,8 +26,7 @@ header {
     h1 {
         font-size: 80px;
         padding-top: 11.6rem;
-    }
-            
+    }   
 }
 // HEADER FOR BLOG
 .headerBlog {
@@ -80,8 +78,6 @@ header {
                 left: 15px;
             }
         }
-        
     }
-    
 }
 
