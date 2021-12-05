@@ -15,14 +15,12 @@ header {
     }
             a {
                 font-family: $montFont;
-                font-size: 20px;
+                font-size: 18px;
                 font-weight: bold;
                 color: $white;
                 padding: 0 1rem;       
             }
-            .anchorBlog,
-            .anchorContact,
-            .anchorHome {
+            .anchorWillow {
                 font-family: $abrilFont;
                 font-size: 32px;
             }   
@@ -30,10 +28,11 @@ header {
         font-size: 80px;
         padding-top: 11.6rem;
     }
+            
 }
 // HEADER FOR BLOG
 .headerBlog {
-    background-image: url(./assets/blog-image-1.jpg);
+    background-image: url(./assets/blog-image-1.jpg); 
 }
 // HEADER FOR CONTACT
 .headerContact {
@@ -42,24 +41,47 @@ header {
 // HEADER FOR HOME
 .headerHome {
     background: $pine;
-    height: 70vh;
+    height: 75vh;
+            .anchorHome {
+                color: $accent;
+            }
     .headerDiv {
         display: flex;
         position: relative;
         .dailyMus {
-            padding-top: 8.3rem;
             img {
-                width: 4.2rem;
-                height: 4.7rem;
+                padding-top: 8rem;
+                width: 75%;
             }
-            
         }
         h1 {
-            font-size: 5rem;
+            font-size: 6rem;
+            font-weight: normal;
             position: absolute;
-            padding-top: 5rem;
+            padding-top: 4.5rem;
             left: 2.5rem;
+        }        
+        .headerImage {
+            width: 19.5rem;
+            position: relative;
+            margin-left: 23rem;
+            margin-top: 1.5rem;
+            img {
+                width: 100%;
+                position: absolute;
+                z-index: 1;
+            }
+            .boxHeader {
+                width: 19.5rem;
+                height: 26.5rem;
+                background: white;
+                position: absolute;
+                top: 15px;
+                left: 15px;
+            }
         }
+        
     }
+    
 }
 

@@ -21,14 +21,12 @@ header ul {
 }
 header a {
   font-family: "Montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   color: #f6f6f6;
   padding: 0 1rem;
 }
-header .anchorBlog,
-header .anchorContact,
-header .anchorHome {
+header .anchorWillow {
   font-family: "Abril Fatface", cursive;
   font-size: 32px;
 }
@@ -47,7 +45,10 @@ header h1 {
 
 .headerHome {
   background: #345231;
-  height: 70vh;
+  height: 75vh;
+}
+.headerHome .anchorHome {
+  color: #e4a436;
 }
 .headerHome .headerDiv {
   display: -webkit-box;
@@ -55,18 +56,35 @@ header h1 {
   display: flex;
   position: relative;
 }
-.headerHome .headerDiv .dailyMus {
-  padding-top: 8.3rem;
-}
 .headerHome .headerDiv .dailyMus img {
-  width: 4.2rem;
-  height: 4.7rem;
+  padding-top: 8rem;
+  width: 75%;
 }
 .headerHome .headerDiv h1 {
-  font-size: 5rem;
+  font-size: 6rem;
+  font-weight: normal;
   position: absolute;
-  padding-top: 5rem;
+  padding-top: 4.5rem;
   left: 2.5rem;
+}
+.headerHome .headerDiv .headerImage {
+  width: 19.5rem;
+  position: relative;
+  margin-left: 23rem;
+  margin-top: 1.5rem;
+}
+.headerHome .headerDiv .headerImage img {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+.headerHome .headerDiv .headerImage .boxHeader {
+  width: 19.5rem;
+  height: 26.5rem;
+  background: white;
+  position: absolute;
+  top: 15px;
+  left: 15px;
 }
 
 li {
