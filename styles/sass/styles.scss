@@ -15,11 +15,10 @@ $montFont: 'Montserrat', sans-serif;
 // IMPORTS 
 @import "articleAside";
 @import "header";
-@import "misc";
 @import "mixins";
 @import "sectionHome";
 @import "setup";
-@import "formsAndButtons";
+@import "forms";
 
 
 // GENERAL STYLES
@@ -47,16 +46,21 @@ li {
 h1,
 h2,
 h3,
-h4 {
+h4,
+button {
     font-family: $abrilFont;
     font-weight: normal;
     text-transform: uppercase;
+    margin: 0;
 }
 
 button {
-    font-family: $abrilFont;
     font-size: 15px;
     background: $accent;
     border: none;
     padding: 0.5rem 1rem;
+}
+
+p {
+    font-size: 16px;
 }
