@@ -1,5 +1,29 @@
-@mixin headButton ($colorValue, $fontSize) {
-    color: $colorValue;
-    font-size: $fontSize;
-    font-family: $abrilFont;
+
+
+
+
+
+
+// FONT AWESOME ICONS
+
+@mixin sample($sampleContent) {
+    content: $sampleContent;
+    display: inline-block;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+// ABOVE CODE WAS FROM FONTAWESOME'S WEBSITE
+// https://fontawesome.com/v5.15/how-to-use/on-the-web/advanced/css-pseudo-elements
+    border-radius: 50%;
+    background: $accent;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    padding-top: 8px;
+    position: absolute;
 }
+            
+

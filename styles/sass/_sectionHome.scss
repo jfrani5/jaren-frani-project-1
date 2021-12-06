@@ -117,6 +117,7 @@
     .contactContainer {
         display: flex;
         flex-wrap: wrap;
+        position: relative;
         .photos,
         .belowAbout,
         .belowBlog,
@@ -124,9 +125,32 @@
             width: 50%;
             padding-left: 3rem;
         }
+        .photos::before {
+            @include sample("\f03e");
+            top: -8px;
+            left: 5px;
+        }
+        .belowAbout::before {
+            @include sample("\f007");
+            margin-top: -8px;
+            margin-left: -2.7rem;
+        }
+        .belowBlog::before {
+            @include sample("\f26c");
+            left: 5px;
+            margin-top: -6px;
+        }
+        .belowContact::before {
+            @include sample("\f095");
+            margin-top: -8px;
+            margin-left: -2.7rem;
+        }
+        .belowBlog,
+        .belowContact {
+            padding-top: 2rem;
+        }
     }
-
 }
-
+// END OF ALL SECTIONS
 
 

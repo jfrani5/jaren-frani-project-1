@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .article {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -220,6 +221,7 @@ header h1 {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  position: relative;
 }
 .contact .contactContainer .photos,
 .contact .contactContainer .belowAbout,
@@ -227,6 +229,86 @@ header h1 {
 .contact .contactContainer .belowContact {
   width: 50%;
   padding-left: 3rem;
+}
+.contact .contactContainer .photos::before {
+  content: "";
+  display: inline-block;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  border-radius: 50%;
+  background: #e4a436;
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  padding-top: 8px;
+  position: absolute;
+  top: -8px;
+  left: 5px;
+}
+.contact .contactContainer .belowAbout::before {
+  content: "";
+  display: inline-block;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  border-radius: 50%;
+  background: #e4a436;
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  padding-top: 8px;
+  position: absolute;
+  margin-top: -8px;
+  margin-left: -2.7rem;
+}
+.contact .contactContainer .belowBlog::before {
+  content: "";
+  display: inline-block;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  border-radius: 50%;
+  background: #e4a436;
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  padding-top: 8px;
+  position: absolute;
+  left: 5px;
+  margin-top: -6px;
+}
+.contact .contactContainer .belowContact::before {
+  content: "";
+  display: inline-block;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  border-radius: 50%;
+  background: #e4a436;
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  padding-top: 8px;
+  position: absolute;
+  margin-top: -8px;
+  margin-left: -2.7rem;
+}
+.contact .contactContainer .belowBlog,
+.contact .contactContainer .belowContact {
+  padding-top: 2rem;
 }
 
 html {
