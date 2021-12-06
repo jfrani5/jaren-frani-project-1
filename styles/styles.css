@@ -188,6 +188,46 @@ header h1 {
   width: 77%;
   padding-left: 5rem;
 }
+.blog .blogSecond {
+  background: url(./assets/home-image-5.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 45vh;
+}
+.blog .blogThird {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 4rem 0;
+}
+.blog .blogThird img {
+  width: calc((100% / 3) - 1rem);
+}
+.blog .blogThird img:nth-of-type(2) {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.contact {
+  background: #f6f6f6;
+  padding: 4rem 0;
+}
+.contact .contactContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.contact .contactContainer .photos,
+.contact .contactContainer .belowAbout,
+.contact .contactContainer .belowBlog,
+.contact .contactContainer .belowContact {
+  width: 50%;
+  padding-left: 3rem;
+}
 
 html {
   line-height: 1.15;
@@ -424,6 +464,16 @@ html {
           clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+footer {
+  background: #1f1f1f;
+  color: #f6f6f6;
+  text-align: center;
+  padding: 5px 0;
+}
+footer p {
+  margin: 0;
 }
 
 html {

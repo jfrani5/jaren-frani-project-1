@@ -1,6 +1,6 @@
 // SECTION .ABOUT
 .about {
-    // delete if empty
+    // for visual
     .whosWillow {
         text-align: center;
         background: $white;
@@ -58,12 +58,9 @@
             }
     }
 }
-
-
-
 // SECTION .BLOG
 .blog {
-    // delete if empty
+    // for visual
     .blogFirst {
         background: $white;
         .blogFirstContainer {
@@ -94,4 +91,42 @@
             }
         }
     }
+    .blogSecond {
+        background: url(./assets/home-image-5.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 45vh;
+    }
+    .blogThird {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 4rem 0;
+        img {
+            width: calc((100% / 3) - 1rem);
+        }
+        & img:nth-of-type(2) {
+            margin-left: 1.5rem;
+            margin-right: 1.5rem;
+        }
+    }
 }
+// SECTION CONTACT
+.contact {
+    background: $white;
+    padding: 4rem 0;
+    .contactContainer {
+        display: flex;
+        flex-wrap: wrap;
+        .photos,
+        .belowAbout,
+        .belowBlog,
+        .belowContact {
+            width: 50%;
+            padding-left: 3rem;
+        }
+    }
+
+}
+
+
+
