@@ -9,6 +9,7 @@
   padding: 4rem 0;
 }
 .article .articleBlog .allAsides {
+  width: 44%;
   margin-right: 1rem;
 }
 .article .articleBlog .allAsides .asideAboutWillow,
@@ -20,11 +21,23 @@
 }
 .article .articleBlog .allAsides .asideAboutWillow img {
   width: 100%;
-  padding: 1rem;
+  padding: 1.5rem;
 }
 .article .articleBlog .allAsides .asideAboutWillow .asideFirst {
   width: 100%;
-  padding: 0 1rem 1rem 1rem;
+  padding: 0 1.5rem 1.5rem 1.5rem;
+}
+.article .articleBlog .allAsides .asideRecent {
+  padding: 1.5rem;
+}
+.article .articleBlog .allAsides .asideRecent ul {
+  padding-left: 1rem;
+  margin-bottom: 0;
+}
+.article .articleBlog .allAsides .asideRecent ul li {
+  font-size: 15px;
+  list-style-type: disc;
+  line-height: 23px;
 }
 .article h2 {
   font-size: 1rem;
@@ -33,6 +46,36 @@
   text-decoration: none;
   color: #709b6b;
   font-weight: bold;
+}
+.article .allArticles {
+  width: 100%;
+}
+.article .allArticles .monday,
+.article .allArticles .sameStyles {
+  background: white;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+.article .allArticles .monday {
+  border-bottom: 5px solid #709b6b;
+}
+.article .allArticles p:last-child {
+  margin-bottom: 0;
+}
+.article .allArticles .sameStyles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.article .allArticles .sameStyles img {
+  width: 4rem;
+  height: 100%;
+}
+.article .allArticles .sameStyles .tuesWed {
+  padding-left: 1rem;
+}
+.article .allArticles .sameStyles .tuesWed p {
+  margin: 0;
 }
 
 header {
@@ -628,6 +671,6 @@ button {
 }
 
 p {
-  font-size: 16px;
+  font-size: 15px;
   line-height: 23px;
 }

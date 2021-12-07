@@ -4,6 +4,7 @@
         display: flex;
         padding: 4rem 0;
         .allAsides {
+            width: 44%;
             margin-right: 1rem;
             .asideAboutWillow,
             .asideRecent {
@@ -13,17 +14,25 @@
                 margin-bottom: 1rem;
                 img {
                     width: 100%;
-                    padding: 1rem;
+                    padding: 1.5rem;
                 }
                 .asideFirst {
                     width: 100%;
-                    padding: 0 1rem 1rem 1rem;
+                    padding: 0 1.5rem 1.5rem 1.5rem;
                 }
             }
             .asideRecent {
-                
+                padding: 1.5rem;
+                ul {
+                    padding-left: 1rem;
+                    margin-bottom: 0;
+                    li {
+                        font-size: 15px;
+                        list-style-type: disc;
+                        line-height: 23px;
+                    }
+                }
             }
-
         }
     }
     & h2 {
@@ -34,4 +43,35 @@
         color: $greengrey;
         font-weight: bold;
     }
+    // END OF ASIDES
+
+    // START OF ARTICLES
+        .allArticles {
+            width: 100%;
+            .monday,
+            .sameStyles {
+                background: white;
+                padding: 1.5rem;
+                margin-bottom: 1rem;
+            }
+            .monday {
+                border-bottom: 5px solid $greengrey;
+            }
+            & p:last-child {
+                margin-bottom: 0;
+            }
+            .sameStyles {
+                display: flex;
+                img {
+                    width: 4rem;
+                    height: 100%;
+                }
+                .tuesWed {
+                    padding-left: 1rem;
+                    p {
+                        margin: 0;
+                    }
+                }
+            }
+        }
 }
