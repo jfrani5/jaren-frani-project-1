@@ -1,32 +1,39 @@
+// FORMS FOR BLOG.HTML AND CONTACT.HTML
+form {
+    display: flex;
+    flex-wrap: wrap;
+    .border {
+        font-size: 15px;
+        border: none;
+        padding: 1rem;
+    }
+    #name,
+    #email {
+        width: 49%;
+    }
+    #name {
+        margin-right: 10px;
+    }
+    #comment,
+    #message,
+    #submit {
+        width: 100%;
+    }
+    #comment,
+    #message {
+        height: 10rem;
+        margin: 0.5rem 0;
+        resize: none;
+    }
+    #submit {
+        padding: 0.5rem;
+    }
+    
+}
+// END OF FORMS
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// FOOTER
+// FOOTER FOR ALL
 footer {
     background: $black;
     color: $white;
@@ -36,3 +43,4 @@ footer {
         margin: 0;
     }
 }
+// END OF FOOTER

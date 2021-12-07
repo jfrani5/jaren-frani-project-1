@@ -1,3 +1,4 @@
+// ARTICLE AND ASIDE FOR BLOG.HTML
 .article {
     background: $white;
     .articleBlog {
@@ -75,3 +76,34 @@
             }
         }
 }
+// END OF ARTICLES AND ASIDE FOR BLOG.HTML
+
+// ASIDE SECTION FOR CONTACT.HTML
+.lastPage {
+    background: $white;
+    .lastContact {
+        display: flex;
+        padding: 4rem 0;
+        .lastAside {
+            width: 35%;
+            height: 100%;
+            background: white;
+            margin-right: 1.5rem;
+            padding: 1.5rem;
+        }
+        & i {
+            color: $pine;
+            padding-right: 1rem;
+        }
+        & p {
+            margin: 0;
+        }
+        & p:first-child {
+            font-weight: bold;
+            padding: 1rem 0;
+        }
+    }
+}
+// END OF ASIDE SECTION FOR CONTACT.HTML
+
+

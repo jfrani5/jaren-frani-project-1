@@ -28,15 +28,21 @@ header {
         padding-top: 11.6rem;
     }   
 }
-// HEADER FOR BLOG
+// END OF GENERAL HEADER
+
+// HEADER FOR BLOG.HTML
 .headerBlog {
     background-image: url(./assets/blog-image-1.jpg); 
 }
-// HEADER FOR CONTACT
+// END OF HEADER FOR BLOG.HTML
+
+// HEADER FOR CONTACT.HTML
 .headerContact {
     background-image: url(./assets/contact-image-1.jpg);
 }
-// HEADER FOR HOME
+// END OF HEADER FOR CONTACT.HTML
+
+// HEADER FOR HOME.HTML
 .headerHome {
     background: $pine;
     height: 65vh;
@@ -80,4 +86,4 @@ header {
         }
     }
 }
-
+// END OF HEADER FOR HOME.HTML

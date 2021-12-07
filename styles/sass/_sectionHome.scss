@@ -1,14 +1,9 @@
 // SECTION .ABOUT
-.about {
-    // for visual
     .whosWillow {
         text-align: center;
         background: $white;
         padding: 5rem 0;
     }
-    .favBuck {
-        // display: flex;
-        // flex-wrap: wrap;
         .favBuckContainer {
             display: flex;
             flex-wrap: wrap;
@@ -56,11 +51,9 @@
                 padding: 1.5rem 4rem 2.5rem 0;
                 text-align: right;
             }
-    }
-}
+// END OF SECTION .ABOUT
+
 // SECTION .BLOG
-.blog {
-    // for visual
     .blogFirst {
         background: $white;
         .blogFirstContainer {
@@ -109,7 +102,8 @@
             margin-right: 1.5rem;
         }
     }
-}
+// END OF SECTION .BLOG
+
 // SECTION CONTACT
 .contact {
     background: $white;
@@ -151,6 +145,6 @@
         }
     }
 }
-// END OF ALL SECTIONS
+// END OF ALL SECTION .CONTACT
 
 

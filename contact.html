@@ -25,37 +25,41 @@
         <h1 class="wrapper">contact me</h1>
     </header>
     <!-- end of header -->
-    <aside>
-        <div class="icons">
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-linkedin-in"></i>
-            <i class="fab fa-twitter"></i>
-        </div> <!-- end of .icons -->
-        <div class="infoEmail">
-            <p>info@email.com</p>
-        </div> <!-- end of .infoEmail -->
-        <div class="addressList">
-            <p>123 - 456 - 7890</p>
-            <p>123 Queen Street West, Unit 10</p>
-            <p>Toronto, Ontario</p>
-            <p>M5V2D5</p>
-        </div><!-- end of .addressList -->
-    </aside>
-    <!-- end of aside -->
-    <form action="">
-        <label for="name"></label>
-        <input type="name" placeholder="Name" id="name">
+    <div class="lastPage">
+        <div class="lastContact wrapper">
+            <aside class="lastAside">
+                <div class="icons">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                    <i class="fab fa-instagram"></i>
+                </div> <!-- end of .icons -->
+        
+                <div class="addressList">
+                    <p>info@email.com</p>
+                    <p>123 - 456 - 7890</p>
+                    <p>123 Queen Street West, Unit 10</p>
+                    <p>Toronto, Ontario</p>
+                    <p>M5V2D5</p>
+                </div><!-- end of .addressList -->
+            </aside>
+            <!-- end of aside -->
+
+            <form action="">
+                <label for="name"></label>
+                <input type="name" placeholder="Name" id="name" class="border">
     
-        <label for="email"></label>
-        <input type="email" placeholder="Email address" id="email">
+                <label for="email"></label>
+                <input type="email" placeholder="Email address" id="email" class="border">
     
-        <label for="message"></label>
-        <textarea type="text" placeholder="Message" id="message"></textarea>
+                <label for="message"></label>
+                <textarea type="text" placeholder="Message" id="message" class="border"></textarea>
     
-        <button type="submit">submit</button>
-    </form>
-    <!-- end of forms -->
+                <button type="submit" id="submit" class="border">submit</button>
+            </form>
+            <!-- end of forms -->
+        </div>
+    </div>
     <footer>
         <p>Copyright <i class="far fa-copyright"></i> 2018 HackerYou</p>
     </footer>
