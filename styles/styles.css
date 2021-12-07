@@ -1,8 +1,38 @@
 @charset "UTF-8";
 .article {
+  background: #f6f6f6;
+}
+.article .articleBlog {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 4rem 0;
+}
+.article .articleBlog .allAsides {
+  margin-right: 1rem;
+}
+.article .articleBlog .allAsides .asideAboutWillow,
+.article .articleBlog .allAsides .asideRecent {
+  background: white;
+}
+.article .articleBlog .allAsides .asideAboutWillow {
+  margin-bottom: 1rem;
+}
+.article .articleBlog .allAsides .asideAboutWillow img {
+  width: 100%;
+  padding: 1rem;
+}
+.article .articleBlog .allAsides .asideAboutWillow .asideFirst {
+  width: 100%;
+  padding: 0 1rem 1rem 1rem;
+}
+.article h2 {
+  font-size: 1rem;
+}
+.article a {
+  text-decoration: none;
+  color: #709b6b;
+  font-weight: bold;
 }
 
 header {

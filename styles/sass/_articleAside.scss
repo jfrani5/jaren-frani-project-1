@@ -1,3 +1,37 @@
 .article {
-    display: flex;
+    background: $white;
+    .articleBlog {
+        display: flex;
+        padding: 4rem 0;
+        .allAsides {
+            margin-right: 1rem;
+            .asideAboutWillow,
+            .asideRecent {
+                background: white;
+            }
+            .asideAboutWillow {
+                margin-bottom: 1rem;
+                img {
+                    width: 100%;
+                    padding: 1rem;
+                }
+                .asideFirst {
+                    width: 100%;
+                    padding: 0 1rem 1rem 1rem;
+                }
+            }
+            .asideRecent {
+                
+            }
+
+        }
+    }
+    & h2 {
+        font-size: 1rem;
+    }
+    & a {
+        text-decoration: none;
+        color: $greengrey;
+        font-weight: bold;
+    }
 }
