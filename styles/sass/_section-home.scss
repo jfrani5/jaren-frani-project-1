@@ -10,33 +10,20 @@
             .imageBox1,
             .imageBox2 {
                 width: 48%;
-                position: relative;
                 .bridge,
                 .lotus {
                     width: 100%;
-                    position: inherit;
-                    z-index: 1;
+                    position: relative;
                 }
                 .bridge {
                     top: -40px;
+                    box-shadow: -88px 16px 0 1px $greengrey,
+                                14px 17px 0 0 $greengrey;
                 }
                 .lotus {
                     bottom: -20px;
-                }
-                .pine1,
-                .pine2 {
-                    width: 124%;
-                    height: 98%;
-                    background: $pine;
-                    position: absolute; 
-                }
-                .pine1 {
-                    right: -18px;
-                    top: -22px;
-                }
-                .pine2 {
-                    left: 15px;
-                    bottom: -25px;
+                    box-shadow: 130px 16px 0 1px $greengrey, 
+                                20px 16px 0 1px $greengrey;
                 }
             }
         }
@@ -62,20 +49,10 @@
             .yellowAndPine {
                 width: 22%;
                 position: relative;
-                .imgForWillow,
-                .boxForWillow {
-                    width: 100%;
-                }
                 .imgForWillow {
-                    position: inherit;
-                    z-index: 1;
-                }
-                .boxForWillow {
-                    background: $pine;
-                    height: 100%;
-                    position: absolute;
-                    bottom: -10px;
-                    left: 15px;
+                    width: 100%;
+                    position: relative;
+                    box-shadow: 11px 12px $greengrey;
                 }
             }
             .journey {

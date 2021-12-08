@@ -165,33 +165,23 @@ header h1 {
 }
 .headerHome .headerDiv .dailyMus img {
   padding-top: 8rem;
-  width: 75%;
 }
 .headerHome .headerDiv h1 {
   font-size: 6rem;
   font-weight: normal;
   position: absolute;
-  padding-top: 8rem;
+  padding-top: 9rem;
   left: 2.5rem;
 }
 .headerHome .headerDiv .headerImage {
   width: 19.5rem;
-  position: relative;
   margin-left: 23rem;
   margin-top: 1.5rem;
 }
 .headerHome .headerDiv .headerImage img {
   width: 100%;
-  position: absolute;
-  z-index: 1;
-}
-.headerHome .headerDiv .headerImage .boxHeader {
-  width: 19.5rem;
-  height: 27.3rem;
-  background: white;
-  position: absolute;
-  top: 15px;
-  left: 15px;
+  -webkit-box-shadow: 12px 13px;
+          box-shadow: 12px 13px;
 }
 
 .whosWillow {
@@ -210,42 +200,25 @@ header h1 {
 .favBuckContainer .imageBox1,
 .favBuckContainer .imageBox2 {
   width: 48%;
-  position: relative;
 }
 .favBuckContainer .imageBox1 .bridge,
 .favBuckContainer .imageBox1 .lotus,
 .favBuckContainer .imageBox2 .bridge,
 .favBuckContainer .imageBox2 .lotus {
   width: 100%;
-  position: inherit;
-  z-index: 1;
+  position: relative;
 }
 .favBuckContainer .imageBox1 .bridge,
 .favBuckContainer .imageBox2 .bridge {
   top: -40px;
+  -webkit-box-shadow: -88px 16px 0 1px #709b6b, 14px 17px 0 0 #709b6b;
+          box-shadow: -88px 16px 0 1px #709b6b, 14px 17px 0 0 #709b6b;
 }
 .favBuckContainer .imageBox1 .lotus,
 .favBuckContainer .imageBox2 .lotus {
   bottom: -20px;
-}
-.favBuckContainer .imageBox1 .pine1,
-.favBuckContainer .imageBox1 .pine2,
-.favBuckContainer .imageBox2 .pine1,
-.favBuckContainer .imageBox2 .pine2 {
-  width: 124%;
-  height: 98%;
-  background: #345231;
-  position: absolute;
-}
-.favBuckContainer .imageBox1 .pine1,
-.favBuckContainer .imageBox2 .pine1 {
-  right: -18px;
-  top: -22px;
-}
-.favBuckContainer .imageBox1 .pine2,
-.favBuckContainer .imageBox2 .pine2 {
-  left: 15px;
-  bottom: -25px;
+  -webkit-box-shadow: 130px 16px 0 1px #709b6b, 20px 16px 0 1px #709b6b;
+          box-shadow: 130px 16px 0 1px #709b6b, 20px 16px 0 1px #709b6b;
 }
 
 .favourite,
@@ -275,20 +248,11 @@ header h1 {
   width: 22%;
   position: relative;
 }
-.blogFirst .blogFirstContainer .yellowAndPine .imgForWillow,
-.blogFirst .blogFirstContainer .yellowAndPine .boxForWillow {
-  width: 100%;
-}
 .blogFirst .blogFirstContainer .yellowAndPine .imgForWillow {
-  position: inherit;
-  z-index: 1;
-}
-.blogFirst .blogFirstContainer .yellowAndPine .boxForWillow {
-  background: #345231;
-  height: 100%;
-  position: absolute;
-  bottom: -10px;
-  left: 15px;
+  width: 100%;
+  position: relative;
+  -webkit-box-shadow: 11px 12px #709b6b;
+          box-shadow: 11px 12px #709b6b;
 }
 .blogFirst .blogFirstContainer .journey {
   width: 77%;

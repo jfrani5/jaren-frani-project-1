@@ -55,33 +55,22 @@ header {
         .dailyMus {
             img {
                 padding-top: 8rem;
-                width: 75%;
             }
         }
         h1 {
             font-size: 6rem;
             font-weight: normal;
             position: absolute;
-            padding-top: 8rem;
+            padding-top: 9rem;
             left: 2.5rem;
         }        
         .headerImage {
             width: 19.5rem;
-            position: relative;
             margin-left: 23rem;
             margin-top: 1.5rem;
             img {
                 width: 100%;
-                position: absolute;
-                z-index: 1;
-            }
-            .boxHeader {
-                width: 19.5rem;
-                height: 27.3rem;
-                background: white;
-                position: absolute;
-                top: 15px;
-                left: 15px;
+                box-shadow: 12px 13px;        
             }
         }
     }
