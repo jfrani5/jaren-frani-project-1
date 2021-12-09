@@ -324,6 +324,10 @@ header h1 {
   }
 }
 @media (max-width: 680px) {
+  .wrapper {
+    width: 90%;
+  }
+
   header ul {
     display: none;
   }
@@ -650,6 +654,51 @@ header h1 {
   padding-top: 2rem;
 }
 
+@media (max-width: 860px) {
+  .favBuckContainer .imageBox1,
+.favBuckContainer .imageBox2,
+.favourite,
+.bucket {
+    width: 100%;
+  }
+
+  .bucket {
+    -webkit-box-ordinal-group: 11;
+        -ms-flex-order: 10;
+            order: 10;
+    padding-top: 4rem;
+  }
+
+  .blogFirstContainer {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .blogFirst .blogFirstContainer .yellowAndPine {
+    width: 100%;
+  }
+
+  .blogFirst .blogFirstContainer .yellowAndPine .imgForWillow {
+    width: 50%;
+  }
+
+  .blogFirst .blogFirstContainer .journey {
+    width: 100%;
+    padding-top: 3rem;
+    padding-left: 0;
+  }
+
+  .contact .contactContainer .photos,
+.contact .contactContainer .belowAbout,
+.contact .contactContainer .belowBlog,
+.contact .contactContainer .belowContact {
+    width: 100%;
+  }
+
+  .belowAbout {
+    padding-top: 2rem;
+  }
+}
 form {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -82,7 +82,6 @@ header {
 // END OF HEADER FOR HOME.HTML
 
 // HEADER MEDIA QUERIES
-
 @media (max-width: 860px) {
     .headerDiv img {
         display: none;
@@ -90,6 +89,9 @@ header {
 }
 
 @media (max-width: 680px) {
+    .wrapper {
+        width: 90%;
+    }
     header ul {
         display: none;
     }
@@ -105,3 +107,4 @@ header {
         position: static;
     }
 }
+// END OF HEADER MEDIA QUERIES

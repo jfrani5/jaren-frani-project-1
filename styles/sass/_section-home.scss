@@ -124,4 +124,41 @@
 }
 // END OF ALL SECTION .CONTACT
 
-
+// SECTION MEDIA QUERIES
+@media (max-width: 860px) {
+    // .imageBox1,
+    // .imageBox2,
+    .favBuckContainer .imageBox1,
+    .favBuckContainer .imageBox2,
+    .favourite,
+    .bucket {
+        width: 100%;
+    }
+    .bucket {
+        order: 10;
+        padding-top: 4rem;
+    }
+    .blogFirstContainer {
+        flex-wrap: wrap;
+    }
+    .blogFirst .blogFirstContainer .yellowAndPine {
+        width: 100%;
+    }
+    .blogFirst .blogFirstContainer .yellowAndPine .imgForWillow {
+        width: 50%;
+    }
+    .blogFirst .blogFirstContainer .journey {
+        width: 100%;
+        padding-top: 3rem;
+        padding-left: 0;
+    }
+    .contact .contactContainer .photos,
+    .contact .contactContainer .belowAbout,
+    .contact .contactContainer .belowBlog,
+    .contact .contactContainer .belowContact {
+        width: 100%;
+    }
+    .belowAbout {
+        padding-top: 2rem;
+    }
+}
