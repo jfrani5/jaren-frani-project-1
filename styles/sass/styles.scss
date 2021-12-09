@@ -13,13 +13,13 @@ $montFont: 'Montserrat', sans-serif;
 
 
 // IMPORTS 
-@import "article-aside";
+@import "setup";
 @import "header";
+@import "article-aside";
 @import "mixins";
 @import "section-home";
-@import "setup";
 @import "forms-and-footer";
-@import "media-queries";
+
 
 // GENERAL STYLES
 html {
@@ -65,3 +65,5 @@ p {
     font-size: 15px;
     line-height: 23px;
 }
+
+

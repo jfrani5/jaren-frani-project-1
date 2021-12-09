@@ -23,6 +23,9 @@ header {
                 font-family: $abrilFont;
                 font-size: 32px;
             }   
+    .burger {
+        display: none;
+    }
     h1 {
         font-size: 80px;
         padding-top: 11.6rem;
@@ -54,11 +57,12 @@ header {
         position: relative;
         .dailyMus {
             img {
+                width: 100%;
                 padding-top: 8rem;
             }
         }
         h1 {
-            font-size: 6rem;
+            font-size: 5.5rem;
             font-weight: normal;
             position: absolute;
             padding-top: 9rem;
@@ -76,3 +80,9 @@ header {
     }
 }
 // END OF HEADER FOR HOME.HTML
+
+// HEADER MEDIA QUERIES
+
+@media (max-width: 760px) {
+    
+}

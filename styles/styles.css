@@ -1,387 +1,4 @@
 @charset "UTF-8";
-.article {
-  background: #f6f6f6;
-}
-.article .articleBlog {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 4rem 0;
-}
-.article .articleBlog .allAsides {
-  width: 44%;
-  margin-right: 1rem;
-}
-.article .articleBlog .allAsides .asideAboutWillow,
-.article .articleBlog .allAsides .asideRecent {
-  background: white;
-}
-.article .articleBlog .allAsides .asideAboutWillow {
-  margin-bottom: 1rem;
-}
-.article .articleBlog .allAsides .asideAboutWillow img {
-  width: 100%;
-  padding: 1.5rem;
-}
-.article .articleBlog .allAsides .asideAboutWillow .asideFirst {
-  width: 100%;
-  padding: 0 1.5rem 1.5rem 1.5rem;
-}
-.article .articleBlog .allAsides .asideRecent {
-  padding: 1.5rem;
-}
-.article .articleBlog .allAsides .asideRecent ul {
-  padding-left: 1rem;
-  margin-bottom: 0;
-}
-.article .articleBlog .allAsides .asideRecent ul li {
-  font-size: 15px;
-  list-style-type: disc;
-  line-height: 23px;
-}
-.article h2 {
-  font-size: 1rem;
-}
-.article a {
-  text-decoration: none;
-  color: #709b6b;
-  font-weight: bold;
-}
-.article .allArticles {
-  width: 100%;
-}
-.article .allArticles .monday,
-.article .allArticles .sameStyles {
-  background: white;
-  padding: 1.5rem;
-  margin-bottom: 1rem;
-}
-.article .allArticles .monday {
-  border-bottom: 5px solid #709b6b;
-}
-.article .allArticles p:last-child {
-  margin-bottom: 0;
-}
-.article .allArticles .sameStyles {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-.article .allArticles .sameStyles img {
-  width: 4rem;
-  height: 100%;
-}
-.article .allArticles .sameStyles .tuesWed {
-  padding-left: 1rem;
-}
-.article .allArticles .sameStyles .tuesWed p {
-  margin: 0;
-}
-
-.lastPage {
-  background: #f6f6f6;
-}
-.lastPage .lastContact {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 4rem 0;
-}
-.lastPage .lastContact .lastAside {
-  width: 35%;
-  height: 100%;
-  background: white;
-  margin-right: 1.5rem;
-  padding: 1.5rem;
-}
-.lastPage .lastContact i {
-  color: #345231;
-  padding-right: 1rem;
-}
-.lastPage .lastContact p {
-  margin: 0;
-}
-.lastPage .lastContact p:first-child {
-  font-weight: bold;
-  padding: 1rem 0;
-}
-
-header {
-  color: #f6f6f6;
-  background-size: cover;
-  height: 50vh;
-  text-transform: uppercase;
-}
-header ul {
-  background: #345231;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 0;
-  padding: 1rem 0;
-}
-header a {
-  font-family: "Montserrat", sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-  color: #f6f6f6;
-  padding: 0 1rem;
-}
-header .anchorWillow {
-  font-family: "Abril Fatface", cursive;
-  font-size: 32px;
-}
-header h1 {
-  font-size: 80px;
-  padding-top: 11.6rem;
-}
-
-.headerBlog {
-  background-image: url(./assets/blog-image-1.jpg);
-}
-
-.headerContact {
-  background-image: url(./assets/contact-image-1.jpg);
-}
-
-.headerHome {
-  background: #345231;
-  height: 65vh;
-}
-.headerHome .anchorHome {
-  color: #e4a436;
-}
-.headerHome .headerDiv {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
-}
-.headerHome .headerDiv .dailyMus img {
-  padding-top: 8rem;
-}
-.headerHome .headerDiv h1 {
-  font-size: 6rem;
-  font-weight: normal;
-  position: absolute;
-  padding-top: 9rem;
-  left: 2.5rem;
-}
-.headerHome .headerDiv .headerImage {
-  width: 19.5rem;
-  margin-left: 23rem;
-  margin-top: 1.5rem;
-}
-.headerHome .headerDiv .headerImage img {
-  width: 100%;
-  -webkit-box-shadow: 12px 13px;
-          box-shadow: 12px 13px;
-}
-
-.whosWillow {
-  text-align: center;
-  background: #f6f6f6;
-  padding: 5rem 0;
-}
-
-.favBuckContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-.favBuckContainer .imageBox1,
-.favBuckContainer .imageBox2 {
-  width: 48%;
-}
-.favBuckContainer .imageBox1 .bridge,
-.favBuckContainer .imageBox1 .lotus,
-.favBuckContainer .imageBox2 .bridge,
-.favBuckContainer .imageBox2 .lotus {
-  width: 100%;
-  position: relative;
-}
-.favBuckContainer .imageBox1 .bridge,
-.favBuckContainer .imageBox2 .bridge {
-  top: -40px;
-  -webkit-box-shadow: -88px 16px 0 1px #709b6b, 14px 17px 0 0 #709b6b;
-          box-shadow: -88px 16px 0 1px #709b6b, 14px 17px 0 0 #709b6b;
-}
-.favBuckContainer .imageBox1 .lotus,
-.favBuckContainer .imageBox2 .lotus {
-  bottom: -20px;
-  -webkit-box-shadow: 130px 16px 0 1px #709b6b, 20px 16px 0 1px #709b6b;
-          box-shadow: 130px 16px 0 1px #709b6b, 20px 16px 0 1px #709b6b;
-}
-
-.favourite,
-.bucket {
-  width: 48%;
-}
-
-.favourite {
-  padding: 3rem 0 2rem 4rem;
-}
-
-.bucket {
-  padding: 1.5rem 4rem 2.5rem 0;
-  text-align: right;
-}
-
-.blogFirst {
-  background: #f6f6f6;
-}
-.blogFirst .blogFirstContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 4rem 0;
-}
-.blogFirst .blogFirstContainer .yellowAndPine {
-  width: 22%;
-  position: relative;
-}
-.blogFirst .blogFirstContainer .yellowAndPine .imgForWillow {
-  width: 100%;
-  position: relative;
-  -webkit-box-shadow: 11px 12px #709b6b;
-          box-shadow: 11px 12px #709b6b;
-}
-.blogFirst .blogFirstContainer .journey {
-  width: 77%;
-  padding-left: 5rem;
-}
-
-.blogSecond {
-  background: url(./assets/home-image-5.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 45vh;
-}
-
-.blogThird {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  padding: 4rem 0;
-}
-.blogThird img {
-  width: calc((100% / 3) - 1rem);
-}
-.blogThird img:nth-of-type(2) {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
-}
-
-.contact {
-  background: #f6f6f6;
-  padding: 4rem 0;
-}
-.contact .contactContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  position: relative;
-}
-.contact .contactContainer .photos,
-.contact .contactContainer .belowAbout,
-.contact .contactContainer .belowBlog,
-.contact .contactContainer .belowContact {
-  width: 50%;
-  padding-left: 3rem;
-}
-.contact .contactContainer .photos::before {
-  content: "";
-  display: inline-block;
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  border-radius: 50%;
-  background: #e4a436;
-  width: 2rem;
-  height: 2rem;
-  text-align: center;
-  padding-top: 8px;
-  position: absolute;
-  top: -8px;
-  left: 5px;
-}
-.contact .contactContainer .belowAbout::before {
-  content: "";
-  display: inline-block;
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  border-radius: 50%;
-  background: #e4a436;
-  width: 2rem;
-  height: 2rem;
-  text-align: center;
-  padding-top: 8px;
-  position: absolute;
-  margin-top: -8px;
-  margin-left: -2.7rem;
-}
-.contact .contactContainer .belowBlog::before {
-  content: "";
-  display: inline-block;
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  border-radius: 50%;
-  background: #e4a436;
-  width: 2rem;
-  height: 2rem;
-  text-align: center;
-  padding-top: 8px;
-  position: absolute;
-  left: 5px;
-  margin-top: -6px;
-}
-.contact .contactContainer .belowContact::before {
-  content: "";
-  display: inline-block;
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  border-radius: 50%;
-  background: #e4a436;
-  width: 2rem;
-  height: 2rem;
-  text-align: center;
-  padding-top: 8px;
-  position: absolute;
-  margin-top: -8px;
-  margin-left: -2.7rem;
-}
-.contact .contactContainer .belowBlog,
-.contact .contactContainer .belowContact {
-  padding-top: 2rem;
-}
-
 html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
@@ -617,6 +234,393 @@ html {
           clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+header {
+  color: #f6f6f6;
+  background-size: cover;
+  height: 50vh;
+  text-transform: uppercase;
+}
+header ul {
+  background: #345231;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  padding: 1rem 0;
+}
+header a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #f6f6f6;
+  padding: 0 1rem;
+}
+header .anchorWillow {
+  font-family: "Abril Fatface", cursive;
+  font-size: 32px;
+}
+header .burger {
+  display: none;
+}
+header h1 {
+  font-size: 80px;
+  padding-top: 11.6rem;
+}
+
+.headerBlog {
+  background-image: url(./assets/blog-image-1.jpg);
+}
+
+.headerContact {
+  background-image: url(./assets/contact-image-1.jpg);
+}
+
+.headerHome {
+  background: #345231;
+  height: 65vh;
+}
+.headerHome .anchorHome {
+  color: #e4a436;
+}
+.headerHome .headerDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+.headerHome .headerDiv .dailyMus img {
+  width: 100%;
+  padding-top: 8rem;
+}
+.headerHome .headerDiv h1 {
+  font-size: 5.5rem;
+  font-weight: normal;
+  position: absolute;
+  padding-top: 9rem;
+  left: 2.5rem;
+}
+.headerHome .headerDiv .headerImage {
+  width: 19.5rem;
+  margin-left: 23rem;
+  margin-top: 1.5rem;
+}
+.headerHome .headerDiv .headerImage img {
+  width: 100%;
+  -webkit-box-shadow: 12px 13px;
+          box-shadow: 12px 13px;
+}
+
+.article {
+  background: #f6f6f6;
+}
+.article .articleBlog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 4rem 0;
+}
+.article .articleBlog .allAsides {
+  width: 44%;
+  margin-right: 1rem;
+}
+.article .articleBlog .allAsides .asideAboutWillow,
+.article .articleBlog .allAsides .asideRecent {
+  background: white;
+}
+.article .articleBlog .allAsides .asideAboutWillow {
+  margin-bottom: 1rem;
+}
+.article .articleBlog .allAsides .asideAboutWillow img {
+  width: 100%;
+  padding: 1.5rem;
+}
+.article .articleBlog .allAsides .asideAboutWillow .asideFirst {
+  width: 100%;
+  padding: 0 1.5rem 1.5rem 1.5rem;
+}
+.article .articleBlog .allAsides .asideRecent {
+  padding: 1.5rem;
+}
+.article .articleBlog .allAsides .asideRecent ul {
+  padding-left: 1rem;
+  margin-bottom: 0;
+}
+.article .articleBlog .allAsides .asideRecent ul li {
+  font-size: 15px;
+  list-style-type: disc;
+  line-height: 23px;
+}
+.article h2 {
+  font-size: 1rem;
+}
+.article a {
+  text-decoration: none;
+  color: #709b6b;
+  font-weight: bold;
+}
+.article .allArticles {
+  width: 100%;
+}
+.article .allArticles .monday,
+.article .allArticles .sameStyles {
+  background: white;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+.article .allArticles .monday {
+  border-bottom: 5px solid #709b6b;
+}
+.article .allArticles p:last-child {
+  margin-bottom: 0;
+}
+.article .allArticles .sameStyles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.article .allArticles .sameStyles img {
+  width: 4rem;
+  height: 100%;
+}
+.article .allArticles .sameStyles .tuesWed {
+  padding-left: 1rem;
+}
+.article .allArticles .sameStyles .tuesWed p {
+  margin: 0;
+}
+
+.lastPage {
+  background: #f6f6f6;
+}
+.lastPage .lastContact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 4rem 0;
+}
+.lastPage .lastContact .lastAside {
+  width: 35%;
+  height: 100%;
+  background: white;
+  margin-right: 1.5rem;
+  padding: 1.5rem;
+}
+.lastPage .lastContact i {
+  color: #345231;
+  padding-right: 1rem;
+}
+.lastPage .lastContact p {
+  margin: 0;
+}
+.lastPage .lastContact p:first-child {
+  font-weight: bold;
+  padding: 1rem 0;
+}
+
+.whosWillow {
+  text-align: center;
+  background: #f6f6f6;
+  padding: 5rem 0;
+}
+
+.favBuckContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.favBuckContainer .imageBox1,
+.favBuckContainer .imageBox2 {
+  width: 48%;
+}
+.favBuckContainer .imageBox1 .bridge,
+.favBuckContainer .imageBox1 .lotus,
+.favBuckContainer .imageBox2 .bridge,
+.favBuckContainer .imageBox2 .lotus {
+  width: 100%;
+  position: relative;
+}
+.favBuckContainer .imageBox1 .bridge,
+.favBuckContainer .imageBox2 .bridge {
+  top: -40px;
+  -webkit-box-shadow: -88px 16px 0 1px #709b6b, 14px 17px 0 0 #709b6b;
+          box-shadow: -88px 16px 0 1px #709b6b, 14px 17px 0 0 #709b6b;
+}
+.favBuckContainer .imageBox1 .lotus,
+.favBuckContainer .imageBox2 .lotus {
+  bottom: -20px;
+  -webkit-box-shadow: 130px 16px 0 1px #709b6b, 20px 16px 0 1px #709b6b;
+          box-shadow: 130px 16px 0 1px #709b6b, 20px 16px 0 1px #709b6b;
+}
+
+.favourite,
+.bucket {
+  width: 48%;
+}
+
+.favourite {
+  padding: 3rem 0 2rem 4rem;
+}
+
+.bucket {
+  padding: 1.5rem 4rem 2.5rem 0;
+  text-align: right;
+}
+
+.blogFirst {
+  background: #f6f6f6;
+}
+.blogFirst .blogFirstContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 4rem 0;
+}
+.blogFirst .blogFirstContainer .yellowAndPine {
+  width: 22%;
+  position: relative;
+}
+.blogFirst .blogFirstContainer .yellowAndPine .imgForWillow {
+  width: 100%;
+  position: relative;
+  -webkit-box-shadow: 11px 12px #709b6b;
+          box-shadow: 11px 12px #709b6b;
+}
+.blogFirst .blogFirstContainer .journey {
+  width: 77%;
+  padding-left: 5rem;
+}
+
+.blogSecond {
+  background: url(./assets/home-image-5.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 45vh;
+}
+
+.blogThird {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 4rem 0;
+}
+.blogThird img {
+  width: calc((100% / 3) - 1rem);
+}
+.blogThird img:nth-of-type(2) {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.contact {
+  background: #f6f6f6;
+  padding: 4rem 0;
+}
+.contact .contactContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: relative;
+}
+.contact .contactContainer .photos,
+.contact .contactContainer .belowAbout,
+.contact .contactContainer .belowBlog,
+.contact .contactContainer .belowContact {
+  width: 50%;
+  padding-left: 3rem;
+}
+.contact .contactContainer .photos::before {
+  content: "";
+  display: inline-block;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  border-radius: 50%;
+  background: #e4a436;
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  padding-top: 8px;
+  position: absolute;
+  top: -8px;
+  left: 5px;
+}
+.contact .contactContainer .belowAbout::before {
+  content: "";
+  display: inline-block;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  border-radius: 50%;
+  background: #e4a436;
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  padding-top: 8px;
+  position: absolute;
+  margin-top: -8px;
+  margin-left: -2.7rem;
+}
+.contact .contactContainer .belowBlog::before {
+  content: "";
+  display: inline-block;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  border-radius: 50%;
+  background: #e4a436;
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  padding-top: 8px;
+  position: absolute;
+  left: 5px;
+  margin-top: -6px;
+}
+.contact .contactContainer .belowContact::before {
+  content: "";
+  display: inline-block;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  border-radius: 50%;
+  background: #e4a436;
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  padding-top: 8px;
+  position: absolute;
+  margin-top: -8px;
+  margin-left: -2.7rem;
+}
+.contact .contactContainer .belowBlog,
+.contact .contactContainer .belowContact {
+  padding-top: 2rem;
 }
 
 form {
