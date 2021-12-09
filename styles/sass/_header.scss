@@ -22,10 +22,10 @@ header {
             .anchorWillow {
                 font-family: $abrilFont;
                 font-size: 32px;
-            }   
-    .burger {
+            } 
+    i.fa-bars {
         display: none;
-    }
+    }  
     h1 {
         font-size: 80px;
         padding-top: 11.6rem;
@@ -83,6 +83,25 @@ header {
 
 // HEADER MEDIA QUERIES
 
-@media (max-width: 760px) {
-    
+@media (max-width: 860px) {
+    .headerDiv img {
+        display: none;
+    }
+}
+
+@media (max-width: 680px) {
+    header ul {
+        display: none;
+    }
+    header i.fa-bars {
+        display: flex;
+        justify-content: flex-end;
+        font-size: 2rem;
+        padding: 1rem;
+    }
+    .headerHome .headerDiv h1 {
+        font-size: 4rem;
+        padding-left: 1rem;
+        position: static;
+    }
 }

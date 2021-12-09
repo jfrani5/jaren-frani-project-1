@@ -267,7 +267,7 @@ header .anchorWillow {
   font-family: "Abril Fatface", cursive;
   font-size: 32px;
 }
-header .burger {
+header i.fa-bars {
   display: none;
 }
 header h1 {
@@ -318,6 +318,33 @@ header h1 {
           box-shadow: 12px 13px;
 }
 
+@media (max-width: 860px) {
+  .headerDiv img {
+    display: none;
+  }
+}
+@media (max-width: 680px) {
+  header ul {
+    display: none;
+  }
+
+  header i.fa-bars {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    font-size: 2rem;
+    padding: 1rem;
+  }
+
+  .headerHome .headerDiv h1 {
+    font-size: 4rem;
+    padding-left: 1rem;
+    position: static;
+  }
+}
 .article {
   background: #f6f6f6;
 }
