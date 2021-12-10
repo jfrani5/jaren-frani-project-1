@@ -106,4 +106,27 @@
 }
 // END OF ASIDE SECTION FOR CONTACT.HTML
 
-
+// ARTICLE-ASIDE MEDIA QUERIES
+    // FOR BLOG.HTML
+@media (max-width: 888px) {
+    .articleBlog {
+        flex-wrap: wrap;
+    }
+    .article .articleBlog .allAsides {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+}
+    // FOR CONTACT.HTML
+@media (max-width: 952px) {
+    .lastPage .lastContact {
+        flex-wrap: wrap;
+    }
+    .lastPage .lastContact .lastAside {
+        font-size: 3rem;
+        width: 23rem;
+        order: 1;
+        margin-top: 3rem;
+    }
+}

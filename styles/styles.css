@@ -324,10 +324,6 @@ header h1 {
   }
 }
 @media (max-width: 680px) {
-  .wrapper {
-    width: 90%;
-  }
-
   header ul {
     display: none;
   }
@@ -456,6 +452,33 @@ header h1 {
   padding: 1rem 0;
 }
 
+@media (max-width: 888px) {
+  .articleBlog {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .article .articleBlog .allAsides {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+}
+@media (max-width: 952px) {
+  .lastPage .lastContact {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .lastPage .lastContact .lastAside {
+    font-size: 3rem;
+    width: 23rem;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin-top: 3rem;
+  }
+}
 .whosWillow {
   text-align: center;
   background: #f6f6f6;
@@ -743,6 +766,17 @@ footer p {
   margin: 0;
 }
 
+@media (max-width: 660px) {
+  form #name {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 3px;
+  }
+
+  form #email {
+    width: 100%;
+  }
+}
 html {
   font-size: 125%;
 }
